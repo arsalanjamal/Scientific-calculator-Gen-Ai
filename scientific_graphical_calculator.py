@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # Function to perform scientific calculations
 def scientific_calculator():
     st.title("Scientific Calculator")
-
+    
     st.subheader("Choose your operation:")
     operation = st.selectbox("Select an operation:", ["Trigonometric", "Logarithmic", "Algebraic"])
 
@@ -102,6 +102,9 @@ def plot_graph():
 # Main function to control the flow of the app
 def main():
     st.title("Scientific Graphical Calculator with Plots")
+    
+    # h2 heading for "Developed by Arsalan Jamal"
+    st.markdown("## Developed by Arsalan Jamal")
 
     st.sidebar.title("Menu")
     app_mode = st.sidebar.selectbox("Choose an option", ["Scientific Calculator", "Plot Graphs"])
