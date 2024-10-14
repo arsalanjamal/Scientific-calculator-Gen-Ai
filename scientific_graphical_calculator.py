@@ -101,7 +101,7 @@ def plot_graph():
 
 # Main function to control the flow of the app
 def main():
-    st.title("Scientific Graphical Calculator with Plots")
+    st.title(<style="color: red;">"Scientific Graphical Calculator with Plots")
     
     # h2 heading for "Developed by Arsalan Jamal"
     st.markdown("## Developed by Arsalan Jamal")
